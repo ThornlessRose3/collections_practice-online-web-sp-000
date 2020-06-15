@@ -47,7 +47,8 @@ def kesha_maker(array)
     new_string = string.split
     new_string.insert(2, "$")
     new_string.join
-    
+    return new_string
+  end
 end
 
 
