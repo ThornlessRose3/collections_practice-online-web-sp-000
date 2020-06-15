@@ -69,5 +69,8 @@ end
 
 
 def add_s(array)
-  
+  element = array[1]
+  array.collect { |word| word + "s"}
+  array[1] = element
+  return array
 end
