@@ -55,9 +55,7 @@ end
 
 
 def find_a(array)
-  new_array = []
-  new_array << array.each { |string| string.start_with?("A" || "a") }
-  return new_array
+  array.each { |string| string.start_with?("A" || "a") }
 end
 
 
