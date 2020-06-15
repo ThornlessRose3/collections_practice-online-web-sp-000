@@ -55,7 +55,13 @@ end
 
 
 def find_a(array)
-  array.each { |string| start_with(string, "A" || "a") }
+  new_array = []
+  array.each do |string| 
+    if start_with(string, "A" || "a")
+      new_array << string
+    end
+  end
+  return new_array
 end
 
 
