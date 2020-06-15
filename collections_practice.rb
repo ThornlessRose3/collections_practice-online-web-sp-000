@@ -70,7 +70,8 @@ end
 
 def add_s(array)
   element = array[1]
-  array.collect { |word| word + "s"}
-  array[1] = element
-  return array
+  new_array =[]
+  new_ array = array.collect { |word| word + "s"}
+  new_array[1] = element
+  return new_array
 end
