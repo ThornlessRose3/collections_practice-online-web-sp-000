@@ -61,6 +61,13 @@ def find_a(array)
 end
 
 
+def sum_array(array)
+  sum = 0
+  array.each { |i| sum = sum + i }
+  return sum
+end
+
+
 def add_s(array)
   
 end
