@@ -42,7 +42,11 @@ end
 
 
 def kesha_maker(array)
-  
+  new_string = []
+  array.each do |string|
+    new_string = string.split
+    new_string
+    
 end
 
 
