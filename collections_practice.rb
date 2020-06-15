@@ -57,7 +57,8 @@ end
 def find_a(array)
   new_array = []
   array.each do |string| 
-    if start_with(string, "A" || "a")
+    test = string.split(//)
+    if test[0] === "A" || test[0] === "a"
       new_array << string
     end
   end
